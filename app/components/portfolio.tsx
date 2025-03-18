@@ -17,6 +17,7 @@ export default function Portfolio() {
       category: "digital",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
+      link: "https://example.com/digital-dreamscape",
     },
     {
       id: 2,
@@ -24,6 +25,7 @@ export default function Portfolio() {
       category: "paintings",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
+      link: "https://example.com/abstract-harmony",
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ export default function Portfolio() {
       category: "sculptures",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
+      link: "https://example.com/metal-flow",
     },
     {
       id: 4,
@@ -38,6 +41,7 @@ export default function Portfolio() {
       category: "digital",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
+      link: "https://example.com/neon-nights",
     },
     {
       id: 5,
@@ -45,6 +49,7 @@ export default function Portfolio() {
       category: "paintings",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
+      link: "https://example.com/natures-whisper",
     },
     {
       id: 6,
@@ -52,6 +57,7 @@ export default function Portfolio() {
       category: "sculptures",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
+      link: "https://example.com/bronze-echo",
     },
   ]
 
@@ -85,7 +91,7 @@ export default function Portfolio() {
               >
                 <Card className="overflow-hidden bg-zinc-900">
                   <CardContent className="p-0">
-                    <div className="group relative">
+                    <a href={work.link} target="_blank" rel="noopener noreferrer" className="group relative block">
                       <img
                         src={work.image || "/placeholder.svg"}
                         alt={work.title}
@@ -95,7 +101,7 @@ export default function Portfolio() {
                         <h3 className="text-xl font-semibold text-white">{work.title}</h3>
                         <p className="mt-2 text-sm text-gray-300">{work.year}</p>
                       </div>
-                    </div>
+                    </a>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -106,4 +112,3 @@ export default function Portfolio() {
     </section>
   )
 }
-
