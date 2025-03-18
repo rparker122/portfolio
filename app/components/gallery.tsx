@@ -31,7 +31,7 @@ export default function Gallery() {
       src: "/placeholder.svg?height=600&width=400",
       alt: "Art piece 4",
       title: "Abstract Reality",
-      demoLink: "https://example.com/demo4",
+      demoLink: "https://www.google.com/search?q=google&sca_esv=a9a17715c624a2d7&rlz=1C1VDKB_enUS1108US1109&ei=98jYZ9rJL8Ow5NoP_NOyoQs&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=goo&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2dvbyoCCAAyFhAuGIAEGLEDGNEDGEMYgwEYxwEYigUyEBAAGIAEGLEDGEMYgwEYigUyDRAAGIAEGLEDGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyEBAAGIAEGLEDGEMYgwEYigUyEBAAGIAEGLEDGEMYgwEYigUyChAAGIAEGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyCxAAGIAEGLEDGIMBMg0QABiABBixAxhDGIoFSKoOUABYzgRwAXgBkAEAmAEzoAGJAaoBATO4AQHIAQD4AQGYAgSgApYBqAIKwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICFBAAGIAEGOMEGLQCGOkEGOoC2AEBwgIIEAAYgAQYsQPCAhAQLhiABBjRAxhDGMcBGIoFmAME8QX2aubXA6YPvroGBAgBGAeSBwE0oAfPGLIHATO4B5IB&sclient=gws-wiz-serp",
     },
   ]
 
