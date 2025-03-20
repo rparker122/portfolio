@@ -46,7 +46,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="mx-auto max-w-2xl text-center"
         >
-          <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl">Get in Touch</h2>
+          <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl">Get in touch with me</h2>
           <p className="mb-8 text-gray-400">
             Interested in collaborating or commissioning a piece? Let's create something amazing together.
           </p>
