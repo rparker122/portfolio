@@ -96,7 +96,7 @@ export default function Contact() {
                     <FormLabel className="text-white">Message</FormLabel>
                     <FormControl>
                       <Textarea 
-                        placeholder="Tell me about your project..." 
+                        placeholder="Message me..." 
                         className="text-black bg-white min-h-[120px]" 
                         {...field} 
                       />
