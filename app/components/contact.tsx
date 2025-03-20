@@ -48,7 +48,7 @@ export default function Contact() {
         >
           <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl">Get in touch with me</h2>
           <p className="mb-8 text-gray-400">
-            Interested in collaborating or commissioning a piece? Let's create something amazing together.
+          Contact me I actively check all incoming emails, Thank you for viewing my website.
           </p>
         </motion.div>
         <motion.div
