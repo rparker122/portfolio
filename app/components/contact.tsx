@@ -70,7 +70,7 @@ export default function Contact() {
                   <FormItem>
                     <FormLabel>Name</FormLabel>
                     <FormControl>
-                      <Input placeholder="Your name" {...field} name="name" required />
+                      <Input placeholder="Your name" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -83,7 +83,7 @@ export default function Contact() {
                   <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="your@email.com" {...field} name="email" required />
+                      <Input placeholder="your@email.com" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -100,8 +100,6 @@ export default function Contact() {
                         placeholder="Tell me about your project..."
                         className="min-h-[120px]"
                         {...field}
-                        name="message"
-                        required
                       />
                     </FormControl>
                     <FormMessage />
