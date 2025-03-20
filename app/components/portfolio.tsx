@@ -8,13 +8,13 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState("all")
 
-  const categories = ["all", "digital", "paintings", "sculptures"]
+  const categories = ["all", "team", "personal", "my favorites"]
 
   const works = [
     {
       id: 1,
       title: "Digital Dreamscape",
-      category: "digital",
+      category: "team",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
       link: "https://example.com/digital-dreamscape",
@@ -22,7 +22,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Abstract Harmony",
-      category: "paintings",
+      category: "personal",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
       link: "https://www.google.com/search?q=goku+black&sca_esv=a9a17715c624a2d7&rlz=1C1VDKB_enUS1108US1109&ei=AsnYZ8O-AsGr5NoP3vih6Ac&ved=0ahUKEwjDx42JupKMAxXBFVkFHV58CH0Q4dUDCBI&uact=5&oq=goku+black&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmdva3UgYmxhY2syCBAuGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIw3UABY5TNwBngBkAEAmAFNoAHJBqoBAjE1uAEDyAEA-AEBmAIVoAKCB6gCCsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAgsQLhiABBjRAxjHAcICDhAuGIAEGLEDGNEDGMcBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgsQABiABBixAxiDAcICDRAAGIAEGLEDGEMYigXCAgoQABiABBhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICExAuGIAEGLEDGNEDGEMYxwEYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIFEC4YgATCAhEQLhiABBiRAhjRAxjHARiKBcICERAuGIAEGLEDGIMBGNQCGIoFwgIEEAAYA8ICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAg0QLhiABBixAxhDGIoFwgIKEC4YgAQYQxiKBcICDhAuGIAEGMcBGI4FGK8BwgIQEC4YgAQYQxjHARiKBRivAcICFhAuGIAEGEMYxwEYmAUYmQUYigUYrwGYAwPxBfPmsfZwDrYgugYECAEYB5IHAjIxoAfMowGyBwIxNbgH8gY&sclient=gws-wiz-serp",
@@ -30,7 +30,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: "Metal Flow",
-      category: "sculptures",
+      category: "my favorites",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
       link: "https://example.com/metal-flow",
@@ -38,7 +38,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "Neon Nights",
-      category: "digital",
+      category: "team",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
       link: "https://example.com/neon-nights",
@@ -46,7 +46,7 @@ export default function Portfolio() {
     {
       id: 5,
       title: "Nature's Whisper",
-      category: "paintings",
+      category: "persnoal",
       image: "/placeholder.svg?height=400&width=600",
       year: "2024",
       link: "https://example.com/natures-whisper",
@@ -54,7 +54,7 @@ export default function Portfolio() {
     {
       id: 6,
       title: "Bronze Echo",
-      category: "sculptures",
+      category: "my favorites",
       image: "/placeholder.svg?height=400&width=600",
       year: "2023",
       link: "https://example.com/bronze-echo",
